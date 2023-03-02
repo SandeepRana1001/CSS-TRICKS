@@ -36,3 +36,7 @@
 }
 
 /* Add solution below */
+.card,
+.tile {
+    height: 100% !important;
+}
