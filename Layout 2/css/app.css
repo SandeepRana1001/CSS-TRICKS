@@ -1,0 +1,38 @@
+.container {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.tile-text {
+    position: absolute;
+    z-index: 1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8em;
+    text-align: center;
+    /* making text visible on image bottum center and smoke white.*/
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+.card {
+    border-radius: 5px !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+/* Add solution below */
